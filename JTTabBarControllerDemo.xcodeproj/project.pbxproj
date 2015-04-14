@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D2603E1ADD107E0087DB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2603D1ADD107E0087DB82 /* main.m */; };
+		63D260411ADD107E0087DB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D260401ADD107E0087DB82 /* AppDelegate.m */; };
+		63D260441ADD107E0087DB82 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D260431ADD107E0087DB82 /* FirstViewController.m */; };
+		63D260471ADD107E0087DB82 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D260461ADD107E0087DB82 /* SecondViewController.m */; };
+		63D2604A1ADD107E0087DB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D260481ADD107E0087DB82 /* Main.storyboard */; };
+		63D2604C1ADD107E0087DB82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D2604B1ADD107E0087DB82 /* Images.xcassets */; };
+		63D2604F1ADD107E0087DB82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D2604D1ADD107E0087DB82 /* LaunchScreen.xib */; };
+		63D2605B1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2605A1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D260551ADD107E0087DB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D260301ADD107E0087DB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D260371ADD107E0087DB82;
+			remoteInfo = JTTabBarControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D260381ADD107E0087DB82 /* JTTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D2603C1ADD107E0087DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D2603D1ADD107E0087DB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D2603F1ADD107E0087DB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63D260401ADD107E0087DB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63D260421ADD107E0087DB82 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		63D260431ADD107E0087DB82 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		63D260451ADD107E0087DB82 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		63D260461ADD107E0087DB82 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		63D260491ADD107E0087DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D2604B1ADD107E0087DB82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63D2604E1ADD107E0087DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63D260541ADD107E0087DB82 /* JTTabBarControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTTabBarControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D260591ADD107E0087DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D2605A1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTTabBarControllerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D260351ADD107E0087DB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D260511ADD107E0087DB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D2602F1ADD107E0087DB82 = {
+			isa = PBXGroup;
+			children = (
+				63D2603A1ADD107E0087DB82 /* JTTabBarControllerDemo */,
+				63D260571ADD107E0087DB82 /* JTTabBarControllerDemoTests */,
+				63D260391ADD107E0087DB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D260391ADD107E0087DB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D260381ADD107E0087DB82 /* JTTabBarControllerDemo.app */,
+				63D260541ADD107E0087DB82 /* JTTabBarControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D2603A1ADD107E0087DB82 /* JTTabBarControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63D2603F1ADD107E0087DB82 /* AppDelegate.h */,
+				63D260401ADD107E0087DB82 /* AppDelegate.m */,
+				63D260421ADD107E0087DB82 /* FirstViewController.h */,
+				63D260431ADD107E0087DB82 /* FirstViewController.m */,
+				63D260451ADD107E0087DB82 /* SecondViewController.h */,
+				63D260461ADD107E0087DB82 /* SecondViewController.m */,
+				63D260481ADD107E0087DB82 /* Main.storyboard */,
+				63D2604B1ADD107E0087DB82 /* Images.xcassets */,
+				63D2604D1ADD107E0087DB82 /* LaunchScreen.xib */,
+				63D2603B1ADD107E0087DB82 /* Supporting Files */,
+			);
+			path = JTTabBarControllerDemo;
+			sourceTree = "<group>";
+		};
+		63D2603B1ADD107E0087DB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D2603C1ADD107E0087DB82 /* Info.plist */,
+				63D2603D1ADD107E0087DB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D260571ADD107E0087DB82 /* JTTabBarControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D2605A1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m */,
+				63D260581ADD107E0087DB82 /* Supporting Files */,
+			);
+			path = JTTabBarControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		63D260581ADD107E0087DB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D260591ADD107E0087DB82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D260371ADD107E0087DB82 /* JTTabBarControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D2605E1ADD107E0087DB82 /* Build configuration list for PBXNativeTarget "JTTabBarControllerDemo" */;
+			buildPhases = (
+				63D260341ADD107E0087DB82 /* Sources */,
+				63D260351ADD107E0087DB82 /* Frameworks */,
+				63D260361ADD107E0087DB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTTabBarControllerDemo;
+			productName = JTTabBarControllerDemo;
+			productReference = 63D260381ADD107E0087DB82 /* JTTabBarControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D260531ADD107E0087DB82 /* JTTabBarControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D260611ADD107E0087DB82 /* Build configuration list for PBXNativeTarget "JTTabBarControllerDemoTests" */;
+			buildPhases = (
+				63D260501ADD107E0087DB82 /* Sources */,
+				63D260511ADD107E0087DB82 /* Frameworks */,
+				63D260521ADD107E0087DB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D260561ADD107E0087DB82 /* PBXTargetDependency */,
+			);
+			name = JTTabBarControllerDemoTests;
+			productName = JTTabBarControllerDemoTests;
+			productReference = 63D260541ADD107E0087DB82 /* JTTabBarControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D260301ADD107E0087DB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.thongbin;
+				TargetAttributes = {
+					63D260371ADD107E0087DB82 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					63D260531ADD107E0087DB82 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 63D260371ADD107E0087DB82;
+					};
+				};
+			};
+			buildConfigurationList = 63D260331ADD107E0087DB82 /* Build configuration list for PBXProject "JTTabBarControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D2602F1ADD107E0087DB82;
+			productRefGroup = 63D260391ADD107E0087DB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D260371ADD107E0087DB82 /* JTTabBarControllerDemo */,
+				63D260531ADD107E0087DB82 /* JTTabBarControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D260361ADD107E0087DB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D2604A1ADD107E0087DB82 /* Main.storyboard in Resources */,
+				63D2604F1ADD107E0087DB82 /* LaunchScreen.xib in Resources */,
+				63D2604C1ADD107E0087DB82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D260521ADD107E0087DB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D260341ADD107E0087DB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D260471ADD107E0087DB82 /* SecondViewController.m in Sources */,
+				63D260411ADD107E0087DB82 /* AppDelegate.m in Sources */,
+				63D260441ADD107E0087DB82 /* FirstViewController.m in Sources */,
+				63D2603E1ADD107E0087DB82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D260501ADD107E0087DB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D2605B1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D260561ADD107E0087DB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D260371ADD107E0087DB82 /* JTTabBarControllerDemo */;
+			targetProxy = 63D260551ADD107E0087DB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D260481ADD107E0087DB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D260491ADD107E0087DB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D2604D1ADD107E0087DB82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D2604E1ADD107E0087DB82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D2605C1ADD107E0087DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63D2605D1ADD107E0087DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D2605F1ADD107E0087DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTTabBarControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63D260601ADD107E0087DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTTabBarControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63D260621ADD107E0087DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JTTabBarControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTTabBarControllerDemo.app/JTTabBarControllerDemo";
+			};
+			name = Debug;
+		};
+		63D260631ADD107E0087DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JTTabBarControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTTabBarControllerDemo.app/JTTabBarControllerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D260331ADD107E0087DB82 /* Build configuration list for PBXProject "JTTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D2605C1ADD107E0087DB82 /* Debug */,
+				63D2605D1ADD107E0087DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D2605E1ADD107E0087DB82 /* Build configuration list for PBXNativeTarget "JTTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D2605F1ADD107E0087DB82 /* Debug */,
+				63D260601ADD107E0087DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63D260611ADD107E0087DB82 /* Build configuration list for PBXNativeTarget "JTTabBarControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D260621ADD107E0087DB82 /* Debug */,
+				63D260631ADD107E0087DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D260301ADD107E0087DB82 /* Project object */;
+}
