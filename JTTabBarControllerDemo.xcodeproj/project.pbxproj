@@ -15,6 +15,10 @@
 		63D2604C1ADD107E0087DB82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D2604B1ADD107E0087DB82 /* Images.xcassets */; };
 		63D2604F1ADD107E0087DB82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D2604D1ADD107E0087DB82 /* LaunchScreen.xib */; };
 		63D2605B1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2605A1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m */; };
+		63D260661ADD10AD0087DB82 /* JTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D260651ADD10AD0087DB82 /* JTTabBarController.m */; };
+		63D260691ADD11070087DB82 /* JTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D260681ADD11070087DB82 /* JTTabBarButton.m */; };
+		63D2606C1ADD11210087DB82 /* JTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2606B1ADD11210087DB82 /* JTTabBar.m */; };
+		63D260701ADE761A0087DB82 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2606F1ADE761A0087DB82 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,14 @@
 		63D260541ADD107E0087DB82 /* JTTabBarControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTTabBarControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D260591ADD107E0087DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D2605A1ADD107E0087DB82 /* JTTabBarControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTTabBarControllerDemoTests.m; sourceTree = "<group>"; };
+		63D260641ADD10AD0087DB82 /* JTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTTabBarController.h; path = JTTarBarController/JTTabBarController.h; sourceTree = "<group>"; };
+		63D260651ADD10AD0087DB82 /* JTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTTabBarController.m; path = JTTarBarController/JTTabBarController.m; sourceTree = "<group>"; };
+		63D260671ADD11070087DB82 /* JTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTTabBarButton.h; path = JTTarBarController/JTTabBarButton.h; sourceTree = "<group>"; };
+		63D260681ADD11070087DB82 /* JTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTTabBarButton.m; path = JTTarBarController/JTTabBarButton.m; sourceTree = "<group>"; };
+		63D2606A1ADD11210087DB82 /* JTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTTabBar.h; path = JTTarBarController/JTTabBar.h; sourceTree = "<group>"; };
+		63D2606B1ADD11210087DB82 /* JTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTTabBar.m; path = JTTarBarController/JTTabBar.m; sourceTree = "<group>"; };
+		63D2606E1ADE761A0087DB82 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		63D2606F1ADE761A0087DB82 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 		63D2602F1ADD107E0087DB82 = {
 			isa = PBXGroup;
 			children = (
+				63D2606A1ADD11210087DB82 /* JTTabBar.h */,
+				63D2606B1ADD11210087DB82 /* JTTabBar.m */,
+				63D260671ADD11070087DB82 /* JTTabBarButton.h */,
+				63D260681ADD11070087DB82 /* JTTabBarButton.m */,
+				63D260641ADD10AD0087DB82 /* JTTabBarController.h */,
+				63D260651ADD10AD0087DB82 /* JTTabBarController.m */,
 				63D2603A1ADD107E0087DB82 /* JTTabBarControllerDemo */,
 				63D260571ADD107E0087DB82 /* JTTabBarControllerDemoTests */,
 				63D260391ADD107E0087DB82 /* Products */,
@@ -90,6 +108,8 @@
 				63D260431ADD107E0087DB82 /* FirstViewController.m */,
 				63D260451ADD107E0087DB82 /* SecondViewController.h */,
 				63D260461ADD107E0087DB82 /* SecondViewController.m */,
+				63D2606E1ADE761A0087DB82 /* ThirdViewController.h */,
+				63D2606F1ADE761A0087DB82 /* ThirdViewController.m */,
 				63D260481ADD107E0087DB82 /* Main.storyboard */,
 				63D2604B1ADD107E0087DB82 /* Images.xcassets */,
 				63D2604D1ADD107E0087DB82 /* LaunchScreen.xib */,
@@ -226,7 +246,11 @@
 			files = (
 				63D260471ADD107E0087DB82 /* SecondViewController.m in Sources */,
 				63D260411ADD107E0087DB82 /* AppDelegate.m in Sources */,
+				63D260701ADE761A0087DB82 /* ThirdViewController.m in Sources */,
+				63D260661ADD10AD0087DB82 /* JTTabBarController.m in Sources */,
+				63D260691ADD11070087DB82 /* JTTabBarButton.m in Sources */,
 				63D260441ADD107E0087DB82 /* FirstViewController.m in Sources */,
+				63D2606C1ADD11210087DB82 /* JTTabBar.m in Sources */,
 				63D2603E1ADD107E0087DB82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
